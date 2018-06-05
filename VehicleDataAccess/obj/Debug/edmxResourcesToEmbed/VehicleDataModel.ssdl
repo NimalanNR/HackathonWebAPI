@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UserDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="VehicleDetails">
+    <Key>
+      <PropertyRef Name="Bike_Id" />
+    </Key>
+    <Property Name="Users_Id" Type="bigint" />
+    <Property Name="Bike_Id" Type="bigint" Nullable="false" />
+    <Property Name="Bike_Model" Type="varchar" MaxLength="255" />
+    <Property Name="Existing_Fuel" Type="bigint" />
+    <Property Name="Fuel_Refil" Type="bigint" />
+    <Property Name="Fuel_Left" Type="bigint" />
+    <Property Name="Amount_Paid" Type="bigint" />
+    <Property Name="Initial_Odometer_Reading" Type="bigint" />
+    <Property Name="Current_Odometer_Reading" Type="bigint" />
+  </EntityType>
+  <EntityContainer Name="UserDBModelStoreContainer">
+    <EntitySet Name="VehicleDetails" EntityType="Self.VehicleDetails" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

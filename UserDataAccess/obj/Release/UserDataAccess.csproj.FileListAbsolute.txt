@@ -1,0 +1,9 @@
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Release\UserDataAccess.dll.config
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Release\UserDataAccess.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Release\UserDataAccess.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Release\EntityFramework.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Release\EntityFramework.xml
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\obj\Release\UserDataAccess.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\obj\Release\UserDataAccess.pdb

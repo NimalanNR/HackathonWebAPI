@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="UserDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="VehicleDetails">
+          <Key>
+            <PropertyRef Name="Bike_Id" />
+          </Key>
+          <Property Name="Users_Id" Type="bigint" />
+          <Property Name="Bike_Id" Type="bigint" Nullable="false" />
+          <Property Name="Bike_Model" Type="varchar" MaxLength="255" />
+          <Property Name="Existing_Fuel" Type="bigint" />
+          <Property Name="Fuel_Refil" Type="bigint" />
+          <Property Name="Fuel_Left" Type="bigint" />
+          <Property Name="Amount_Paid" Type="bigint" />
+          <Property Name="Initial_Odometer_Reading" Type="bigint" />
+          <Property Name="Current_Odometer_Reading" Type="bigint" />
+        </EntityType>
+        <EntityContainer Name="UserDBModelStoreContainer">
+          <EntitySet Name="VehicleDetails" EntityType="Self.VehicleDetails" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UserDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="VehicleDetail">
+          <Key>
+            <PropertyRef Name="Bike_Id" />
+          </Key>
+          <Property Name="Users_Id" Type="Int64" />
+          <Property Name="Bike_Id" Type="Int64" Nullable="false" />
+          <Property Name="Bike_Model" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Existing_Fuel" Type="Int64" />
+          <Property Name="Fuel_Refil" Type="Int64" />
+          <Property Name="Fuel_Left" Type="Int64" />
+          <Property Name="Amount_Paid" Type="Int64" />
+          <Property Name="Initial_Odometer_Reading" Type="Int64" />
+          <Property Name="Current_Odometer_Reading" Type="Int64" />
+        </EntityType>
+        <EntityContainer Name="VehicleDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="VehicleDetails" EntityType="Self.VehicleDetail" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UserDBModelStoreContainer" CdmEntityContainer="VehicleDBEntities">
+          <EntitySetMapping Name="VehicleDetails">
+            <EntityTypeMapping TypeName="UserDBModel.VehicleDetail">
+              <MappingFragment StoreEntitySet="VehicleDetails">
+                <ScalarProperty Name="Users_Id" ColumnName="Users_Id" />
+                <ScalarProperty Name="Bike_Id" ColumnName="Bike_Id" />
+                <ScalarProperty Name="Bike_Model" ColumnName="Bike_Model" />
+                <ScalarProperty Name="Existing_Fuel" ColumnName="Existing_Fuel" />
+                <ScalarProperty Name="Fuel_Refil" ColumnName="Fuel_Refil" />
+                <ScalarProperty Name="Fuel_Left" ColumnName="Fuel_Left" />
+                <ScalarProperty Name="Amount_Paid" ColumnName="Amount_Paid" />
+                <ScalarProperty Name="Initial_Odometer_Reading" ColumnName="Initial_Odometer_Reading" />
+                <ScalarProperty Name="Current_Odometer_Reading" ColumnName="Current_Odometer_Reading" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,19 @@
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Debug\UserDataAccess.dll.config
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Debug\UserDataAccess.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Debug\UserDataAccess.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\obj\Debug\UserDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\obj\Debug\UserDataAccess.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\UserService\UserDataAccess\obj\Debug\UserDataAccess.pdb
+C:\Users\admin\Desktop\UserService\UserDataAccess\bin\Debug\UserDataAccess.dll.config
+C:\Users\admin\Desktop\UserService\UserDataAccess\bin\Debug\UserDataAccess.dll
+C:\Users\admin\Desktop\UserService\UserDataAccess\bin\Debug\UserDataAccess.pdb
+C:\Users\admin\Desktop\UserService\UserDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\UserService\UserDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\UserService\UserDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\UserService\UserDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\UserService\UserDataAccess\obj\Debug\UserDataAccess.dll
+C:\Users\admin\Desktop\UserService\UserDataAccess\obj\Debug\UserDataAccess.pdb

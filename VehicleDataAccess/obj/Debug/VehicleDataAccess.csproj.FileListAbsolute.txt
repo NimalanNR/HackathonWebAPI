@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\bin\Debug\VehicleDataAccess.dll.config
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\bin\Debug\VehicleDataAccess.dll
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\bin\Debug\VehicleDataAccess.pdb
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\obj\Debug\VehicleDataAccess.dll
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\obj\Debug\VehicleDataAccess.pdb
+C:\Users\admin\Desktop\UserService\VehicleDataAccess\obj\Debug\VehicleDataAccess.csprojResolveAssemblyReference.cache

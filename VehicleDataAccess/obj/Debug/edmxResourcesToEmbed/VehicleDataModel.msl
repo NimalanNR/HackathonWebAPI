@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UserDBModelStoreContainer" CdmEntityContainer="VehicleDBEntities">
+    <EntitySetMapping Name="VehicleDetails">
+      <EntityTypeMapping TypeName="UserDBModel.VehicleDetail">
+        <MappingFragment StoreEntitySet="VehicleDetails">
+          <ScalarProperty Name="Users_Id" ColumnName="Users_Id" />
+          <ScalarProperty Name="Bike_Id" ColumnName="Bike_Id" />
+          <ScalarProperty Name="Bike_Model" ColumnName="Bike_Model" />
+          <ScalarProperty Name="Existing_Fuel" ColumnName="Existing_Fuel" />
+          <ScalarProperty Name="Fuel_Refil" ColumnName="Fuel_Refil" />
+          <ScalarProperty Name="Fuel_Left" ColumnName="Fuel_Left" />
+          <ScalarProperty Name="Amount_Paid" ColumnName="Amount_Paid" />
+          <ScalarProperty Name="Initial_Odometer_Reading" ColumnName="Initial_Odometer_Reading" />
+          <ScalarProperty Name="Current_Odometer_Reading" ColumnName="Current_Odometer_Reading" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
